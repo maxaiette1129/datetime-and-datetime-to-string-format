@@ -7,6 +7,11 @@
            
             var formatedstring = returnDateTime(DateTime.Now, DateTime.Now.ToString("t"));
             Console.WriteLine(formatedstring);
+            Console.WriteLine();
+
+            //overwriting the formatedstring content
+            formatedstring = returnDateTime(DateTime.Today, DateTime.Today.ToString("G"));
+            Console.WriteLine(formatedstring);
             
             
         }
